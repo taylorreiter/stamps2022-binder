@@ -4,4 +4,5 @@ channels:
     - defaults
 dependencies:
     - mamba=0.24.0
+    - nano=2.9.8
     - pip=22.2
