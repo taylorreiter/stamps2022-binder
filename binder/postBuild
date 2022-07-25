@@ -1,0 +1,7 @@
+#!/bin/bash
+
+conda activate 
+
+mamba create -y -n treangen -c conda-forge -c bioconda -c defaults fastqc=0.11.9 multiqc=1.13a sra-tools=2.11.0 fastp=0.23.2 kraken=1.1.1 squeegee=0.2.0 parsnp=1.7.4
+
+mamba create -y -n gtotree -c conda-forge -c bioconda -c defaults -c astrobiomike gtotree=1.6.36
